@@ -9,7 +9,7 @@ You can get or set the locale of a duration using `locale`. The locale will affe
 
 ```javascript
 require("dayjs/locale/es");
-// import es from 'dayjs/plugin/es' // ES 2015
+// import es from 'dayjs/locale/es' // ES 2015
 
 dayjs.duration(1, "minutes").locale("en").humanize(); // a minute
 
